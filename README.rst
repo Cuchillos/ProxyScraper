@@ -8,7 +8,7 @@ Como usarlo:
 
 Termux y kali linux::
 
-    git clone https://github.com/Cuchillos/ProxyScraper.git
+    git clone https://github.com/Cuchillos/ProxyScraper
     cd ProxyScraper
     sudo python scraper.py
     
