@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+#_*_ coding: utf8 _*_
+
 import requests
 from requests.structures import CaseInsensitiveDict
 import time
