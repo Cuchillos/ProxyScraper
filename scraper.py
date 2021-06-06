@@ -6,24 +6,24 @@ from requests.structures import CaseInsensitiveDict
 import time
 import os
 
-print()
+print(" ")
 print("░█████╗░██╗░░░██╗░█████╗░██╗░░██╗██╗██╗░░░░░██╗░░░░░░█████╗░")
 print("██╔══██╗██║░░░██║██╔══██╗██║░░██║██║██║░░░░░██║░░░░░██╔══██╗")
 print("██║░░╚═╝██║░░░██║██║░░╚═╝███████║██║██║░░░░░██║░░░░░██║░░██║")
 print("██║░░██╗██║░░░██║██║░░██╗██╔══██║██║██║░░░░░██║░░░░░██║░░██║")
 print("╚█████╔╝╚██████╔╝╚█████╔╝██║░░██║██║███████╗███████╗╚█████╔╝")
 print("░╚════╝░░╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝╚══════╝╚══════╝░╚════╝░")
-print()
+print(" ")
 print("               By: cuchillo#7116 (Discord)")
-print()
+print(" ")
 
 print('Tipos de proxy: ')
 time.sleep(0.6)
-print()
+print(" ")
 print('    [1] HTTP/S')
 print('    [2] SOCKS4')
 print('    [3] SOCKS5')
-print()
+print(" ")
 time.sleep(1)
 ProxyType = int(input('Escoje un tipo de proxy: '))
 
@@ -45,15 +45,15 @@ if ProxyType == 1:
 
     http = requests.get(url, headers=headers)
 
-    print()
-    print()
+    print(" ")
+    print(" ")
     print("  Scraping proxies http/s ...")
     time.sleep(3)
-    print()
+    print(" ")
     print(http.text)
     time.sleep(1.5)
-    print()
-    print()
+    print(" ")
+    print(" ")
     httpstxt = open('Http-s proxies.txt', "a+")
     for lines in http.text:
         httpstxt.write(lines.rstrip('\n'))
@@ -65,9 +65,7 @@ if ProxyType == 1:
     for x in txt:
         proxies += 1
 
-    print("PROXIES OBTENIDAS:")
-    print(proxies)
-    print()
+    print(" ")
     print("SE HA CREADO UN ARCHIVO .TXT CON LOS PROXIES HTTP/S")
     time.sleep(7)
 
@@ -88,14 +86,14 @@ elif ProxyType == 2:
 
     socks4 = requests.get(url, headers=headers)
 
-    print()
-    print()
+    print(" ")
+    print(" ")
     print("  Scraping proxies socks4 ...")
     time.sleep(3)
-    print()
+    print(" ")
     print(socks4.text)
     time.sleep(1.5)
-    print()
+    print(" ")
     socks4txt = open('Socks4 proxies.txt', "a+")
     for lines in socks4.text:
         socks4txt.write(lines.rstrip('\n'))
@@ -107,9 +105,7 @@ elif ProxyType == 2:
     for x in txt:
         proxies += 1
 
-    print("PROXIES OBTENIDAS:")
-    print(proxies)
-    print()
+    print(" ")
     print("SE HA CREADO UN ARCHIVO .TXT CON LOS PROXIES SOCKS4")
     time.sleep(7)
 
@@ -130,14 +126,14 @@ elif ProxyType == 3:
 
     socks5 = requests.get(url, headers=headers)
 
-    print()
-    print()
+    print(" ")
+    print(" ")
     print("  Scraping proxies socks5 ...")
     time.sleep(3)
-    print()
+    print(" ")
     print(socks5.text)
     time.sleep(1.5)
-    print()
+    print(" ")
     socks5txt = open('Socks5 proxies.txt', "a+")
     for lines in socks5.text:
         socks5txt.write(lines.rstrip('\n'))
@@ -149,14 +145,12 @@ elif ProxyType == 3:
     for x in txt:
         proxies += 1
 
-    print("PROXIES OBTENIDAS:")
-    print(proxies)
-    print()
+    print(" ")
     print("SE HA CREADO UN ARCHIVO .TXT CON LOS PROXIES SOCKS5")
     time.sleep(7)
 
 else:
-    print()
+    print(" ")
     time.sleep(0.6)
     print("PON UN NÚMERO DEL 1 AL 3 :V")
     time.sleep(5)
