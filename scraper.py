@@ -4,7 +4,7 @@ import time
 import os
 
 print()
-print(chr(27)+"[1;31m"+"░█████╗░██╗░░░██╗░█████╗░██╗░░██╗██╗██╗░░░░░██╗░░░░░░█████╗░")
+print("░█████╗░██╗░░░██╗░█████╗░██╗░░██╗██╗██╗░░░░░██╗░░░░░░█████╗░")
 print("██╔══██╗██║░░░██║██╔══██╗██║░░██║██║██║░░░░░██║░░░░░██╔══██╗")
 print("██║░░╚═╝██║░░░██║██║░░╚═╝███████║██║██║░░░░░██║░░░░░██║░░██║")
 print("██║░░██╗██║░░░██║██║░░██╗██╔══██║██║██║░░░░░██║░░░░░██║░░██║")
@@ -14,15 +14,15 @@ print()
 print("               By: cuchillo#7116 (Discord)")
 print()
 
-print(chr(27)+"[1;37m"+'Tipos de proxy: ')
+print('Tipos de proxy: ')
 time.sleep(0.6)
 print()
-print(chr(27)+"[1;34m"+'    [1] HTTP/S')
-print(chr(27)+"[1;34m"+'    [2] SOCKS4')
-print(chr(27)+"[1;34m"+'    [3] SOCKS5')
+print('    [1] HTTP/S')
+print('    [2] SOCKS4')
+print('    [3] SOCKS5')
 print()
 time.sleep(1)
-ProxyType = int(input(chr(27)+"[1;37m"+'Escoje un tipo de proxy: '))
+ProxyType = int(input('Escoje un tipo de proxy: '))
 
 if ProxyType == 1:
 
