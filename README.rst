@@ -6,6 +6,8 @@ Generador de proxies validas
 Como usarlo:
 ------------
 
+Termux y kali linux::
+
     git clone https://github.com/Cuchillos/ProxyScraper.git
     cd ProxyScraper
     python scraper.py
