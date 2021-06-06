@@ -10,7 +10,7 @@ Termux y kali linux::
 
     git clone https://github.com/Cuchillos/ProxyScraper.git
     cd ProxyScraper
-    python scraper.py
+    sudo python scraper.py
     
 Discord: ``cuchillo#7116``  |  Servidor de 
 `Discord`_.
