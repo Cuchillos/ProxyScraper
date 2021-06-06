@@ -65,7 +65,8 @@ if ProxyType == 1:
     for x in txt:
         proxies += 1
 
-    print(f"PROXIES OBTENIDAS: {proxies}")
+    print("PROXIES OBTENIDAS:")
+    print(proxies)
     print()
     print("SE HA CREADO UN ARCHIVO .TXT CON LOS PROXIES HTTP/S")
     time.sleep(7)
@@ -106,7 +107,8 @@ elif ProxyType == 2:
     for x in txt:
         proxies += 1
 
-    print(f"PROXIES OBTENIDAS: {proxies}")
+    print("PROXIES OBTENIDAS:")
+    print(proxies)
     print()
     print("SE HA CREADO UN ARCHIVO .TXT CON LOS PROXIES SOCKS4")
     time.sleep(7)
@@ -147,7 +149,8 @@ elif ProxyType == 3:
     for x in txt:
         proxies += 1
 
-    print(f"PROXIES OBTENIDAS: {proxies}")
+    print("PROXIES OBTENIDAS:")
+    print(proxies)
     print()
     print("SE HA CREADO UN ARCHIVO .TXT CON LOS PROXIES SOCKS5")
     time.sleep(7)
